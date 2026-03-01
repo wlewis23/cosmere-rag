@@ -8,6 +8,9 @@ langchain-chroma==1.1.0
 sentence-transformers==3.4.1
 langchain-huggingface>=1.2.0
 
+# GUI
+gradio>=6.8.0
+
 # Data fetching + Utilities (let pip resolve compatible versions)
 # curl-cffi: libcurl-backed HTTP that passes Cloudflare TLS fingerprinting
 curl-cffi>=0.14.0

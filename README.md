@@ -33,12 +33,19 @@ python scripts/build_index.py --reset # wipe and rebuild from scratch
 ```
 
 ### 3. Query
+
+**CLI (terminal REPL):**
 ```bash
-python scripts/query.py                  # interactive REPL
+python scripts/query.py                   # interactive REPL
 python scripts/query.py "Who is Kaladin?" # single query
 ```
-
 In the REPL, type `sources` to toggle citation display, and `quit` or `exit` to leave.
+
+**GUI (Gradio web interface):**
+```bash
+python scripts/app.py
+```
+Opens a chat interface at `http://127.0.0.1:7860`. Answers include clickable source links to the relevant Coppermind articles.
 
 ## Stack
 
